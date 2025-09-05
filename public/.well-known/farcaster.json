@@ -10,7 +10,7 @@
     "subtitle": "Built with Zara",
     "description": "KnowYourRights Cards is a Base Mini App built with Zara.",
     "iconUrl": "https://0co.to/images/zara-2.png",
-    "homeUrl": "https://9eb7f43075ed41b08e73186f1b7f3362-5885.vercel.app",
+    "homeUrl": "https://9eb7f43075ed41b08e73186f1b7f3362-9cbn.vercel.app",
     "splashImageUrl": "https://9eb7f43075ed41b08e73186f1b7f3362-5885.vercel.app/splash.png",
     "splashBackgroundColor": "#000000",
     "heroImageUrl": "https://9eb7f43075ed41b08e73186f1b7f3362-5885.vercel.app/image.png",
@@ -25,6 +25,6 @@
       "miniapp",
       "onchainkit"
     ],
-    "webhookUrl": "https://9eb7f43075ed41b08e73186f1b7f3362-5885.vercel.app/api/webhook"
+    "webhookUrl": "https://9eb7f43075ed41b08e73186f1b7f3362-9cbn.vercel.app/api/webhook"
   }
 }
