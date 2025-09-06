@@ -10,7 +10,11 @@ export const metadata: Metadata = {
   description: 'Your Pocket Guide to Rights in Stressful Encounters',
   keywords: 'legal rights, police encounters, civil rights, documentation',
   authors: [{ name: 'KnowYourRights Team' }],
-  viewport: 'width=device-width, initial-scale=1',
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
   themeColor: '#1e1b4b',
 };
 
