@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { AlertTriangle, RefreshCw } from 'lucide-react';
 
 export default function Error({
@@ -12,19 +11,10 @@ export default function Error({
 }) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center p-4">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="glass-card p-8 rounded-lg max-w-md w-full text-center"
-      >
-        <motion.div
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ delay: 0.2 }}
-          className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-4"
-        >
+      <div className="glass-card p-8 rounded-lg max-w-md w-full text-center">
+        <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
           <AlertTriangle className="w-8 h-8 text-white" />
-        </motion.div>
+        </div>
         
         <h2 className="text-2xl font-bold text-white mb-2">Something went wrong!</h2>
         <p className="text-gray-300 mb-6">
@@ -53,7 +43,7 @@ export default function Error({
             Error ID: {error.digest}
           </p>
         )}
-      </motion.div>
+      </div>
     </div>
   );
 }

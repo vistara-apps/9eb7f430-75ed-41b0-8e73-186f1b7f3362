@@ -1,14 +1,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useMiniKit } from '@coinbase/onchainkit/minikit';
 
 export default function HomePage() {
-  const { setFrameReady } = useMiniKit();
-
   useEffect(() => {
-    setFrameReady();
-  }, [setFrameReady]);
+    // Frame ready logic can be added later when MiniKit is properly configured
+  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white p-4">
